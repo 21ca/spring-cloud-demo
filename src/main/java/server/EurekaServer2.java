@@ -1,10 +1,10 @@
-package server1;
+package server;
 
 import org.springframework.boot.SpringApplication;
 
-public class EurekaServer1 {
+public class EurekaServer2 {
 	public static void main(String[] args) {
-		System.setProperty("spring.profiles.active", "server1");
+		System.setProperty("spring.profiles.active", "server2");
 		SpringApplication.run(EurekaServerApplication.class, args);
 	}
 }
